@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAVOURITE PLACES</title>
+  <link href="css.css" rel="stylesheet" />
+  <a href="home.html" class="back-button">← Back</a>
+  <style>
+    
+  </style>
+</head>
+<body>
+    <script>
+ 
+  if (sessionStorage.getItem("isLoggedIn") !== "true") {
+    alert("Please log in first.");
+    window.location.href = "login.html";
+  }
+</script>
+
+     <header>
+    <div class="logo-container">
+      <img src="https://static.vecteezy.com/system/resources/previews/041/041/174/non_2x/tourism-logo-icon-brand-identity-sign-symbol-vector.jpg" alt="Tourism Logo" class="logo-img" />
+      <div class="logo-text">FAVOURITE PLACES</div>
+    </div>
+    <div class="header">
+
+  <div class="right-section">
+    <a href="home.html" class="home-button">HOME</a>
+  </div>
+      <form class="search-form">
+    <input type="text" placeholder="Search destinations..." />
+    <button><i class="fas fa-search"></i></button>
+  </form>
+    
+  </header>
+  <div class="favourite-places-bg-container">
+    <h1 class="favourite-places-heading"></h1>
+    <div class="favourite-places-cards-wrapper">
+
+      <div class="favourite-place-card-container">
+        <h1 class="favourite-place-card-heading">TAJ MAHAL</h1>
+        <p class="favourite-place-card-description">
+          If there was just one symbol to represent all of India, it would be the Taj Mahal.
+        </p>
+        <img src="https://www.robinage.com/wp-content/uploads/2022/04/Taj-Mahal.jpg" class="favourite-place-card-image" />
+      </div>
+
+      <div class="favourite-place-card-container">
+        <h1 class="favourite-place-card-heading">GOLDEN TEMPLE</h1>
+        <p class="favourite-place-card-description">
+          Amritsar is world-famous for the beautiful and highly revered Golden Temple.
+        </p>
+        <img src="https://sacredsites.com/images/asia/india/golden-temple-entrance-1200.jpg" class="favourite-place-card-image" />
+      </div>
+
+      <div class="favourite-place-card-container">
+        <h1 class="favourite-place-card-heading">MYSORE PALACE</h1>
+        <p class="favourite-place-card-description">
+          The Mysore Palace is a historical palace and the royal residence at Mysore.
+        </p>
+        <img src="https://www.tripplannersindia.com/assets/blog/images/placestovisitinmysore/Mysore_Palace.webp" class="favourite-place-card-image" />
+      </div>
+
+      <div class="favourite-place-card-container">
+       <h1 class="favourite-place-card-heading">QUTUB MINAR</h1>
+       <p class="favourite-place-card-description">Qutub Minar is the tallest brick minaret in the world and a UNESCO World Heritage .</p>
+       <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201704/647_042717101905.jpg?size=690:388" class="favourite-place-card-image" />
+       </div>
+
+       <div class="favourite-place-card-container">
+       <h1 class="favourite-place-card-heading">GATE WAY OF INDIA</h1>
+       <p class="favourite-place-card-description">Built in 1924, the Gateway of India is a famous arch-monument located in Mumbai overlooking the Arabian Sea.Varanasi Temple is one of the most famous Hindu temples dedicated to Lord Shiva.ver pleasent and nice to see</p>
+      <img src="https://assets.simplotel.com/simplotel/image/upload/x_0,y_1208,w_3492,h_1968,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/theory9---premium-service-apts/mumbai_gateway_of_india" class="favourite-place-card-image" />
+      </div>
+
+      <div class="favourite-place-card-container">
+        <h1 class="favourite-place-card-heading">VARANASI TEMPLE</h1>
+        <p class="favourite-place-card-description">
+          Varanasi Temple is one of the most famous Hindu temples dedicated to Lord Shiva.ver pleasent and nice to see,Varanasi Temple is one of the most famous Hindu temples dedicated to Lord Shiva.ver pleasent and nice to see
+
+        </p>
+        <img src="https://i0.wp.com/nithinks.com/wp-content/uploads/2022/09/Varanasi_Landscape_1912.png?fit=800%2C506&ssl=1" class="favourite-place-card-image" />
+      </div>
+       <div class="favourite-place-card-container">
+        <h1 class="favourite-place-card-heading">RED FORT</h1>
+        <p class="favourite-place-card-description">
+          The Red Fort, built by Mughal Emperor Shah Jahan in 1639, is a majestic red sandstone fortress in Delhi that served as the royal residence for nearly 200 years. It stands today as a powerful symbol of India's rich history and independence.
+        </p>
+        <img src="https://hblimg.mmtcdn.com/content/hubble/img/delhi/mmt/activities/m_activities_delhi_red_fort_l_341_817.jpg" class="favourite-place-card-image" />
+      </div>
+       <div class="favourite-place-card-container">
+        <h1 class="favourite-place-card-heading">EIFFEL TOWER</h1>
+        <p class="favourite-place-card-description">The Eiffel Tower is a world-famous iron lattice tower located on the Champ de Mars in Paris.its very beautiful and ver nice to see.once every one should experenice it .once in a life time. effile tower it is located in paris.
+
+
+        </p>
+        <img src="https://www.planetware.com/wpimages/2021/10/world-tourist-attractions-eiffel-tower-flowers-spring.jpg" class="favourite-place-card-image" />
+      </div>
+
+    </div>
+    <button>back</button>
+  </div>
+</body>
+</html>

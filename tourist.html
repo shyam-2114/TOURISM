@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOURIST SPOT</title>
+  <link href="css.css" rel="stylesheet" />
+  <a href="home.html" class="back-button">← Back</a>
+
+
+  <style>
+    
+  </style>
+</head>
+<body>
+    <script>
+  if (sessionStorage.getItem("isLoggedIn") !== "true") {
+    alert("Please log in first.");
+    window.location.href = "login.html";
+  }
+</script>
+
+   <header>
+     <div class="logo-container">
+      <img src="https://static.vecteezy.com/system/resources/previews/041/041/174/non_2x/tourism-logo-icon-brand-identity-sign-symbol-vector.jpg" alt="Tourism Logo" class="logo-img" />
+      <div class="logo-text">TOURIST SPOTS</div>
+    </div>
+    <div class="header">
+
+  <div class="right-section">
+    <a href="home.html" class="home-button">HOME</a>
+  </div>
+      <form class="search-form">
+    <input type="text" placeholder="Search destinations..." />
+    <button><i class="fas fa-search"></i></button>
+  </form>
+  
+    
+  </header>
+  
+<div class="favourite-places-bg-container">
+  <h1 class="favourite-places-heading"></h1>
+  <div class="favourite-places-cards-wrapper">
+  <div class="right-section">    
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">TAJ MAHAL</h1>
+  <p class="favourite-place-card-description">A symbol of eternal love, the Taj Mahal is an architectural marvel in Agra and a UNESCO World Heritage Site
+  </p>
+     <a href="tajmahal.html">
+  <img src="https://www.robinage.com/wp-content/uploads/2022/04/Taj-Mahal.jpg" class="favourite-place-card-image" />
+     </a>
+
+</div>   
+    
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">MEENAKSHI TEMPLE</h1>
+  <p class="favourite-place-card-description">A symbol of eternal love, the Taj Mahal is an architectural marvel in Agra and a UNESCO World Heritage Site</p>
+  <img src="https://www.sreestours.com/wp-content/uploads/2023/07/meenakshi-amman-temple-1.jpg" class="favourite-place-card-image" />
+</div> 
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">GOLDEN TEMPLE</h1>
+  <p class="favourite-place-card-description">A symbol of eternal love, the Taj Mahal is an architectural marvel in Agra and a UNESCO World Heritage Site
+  </p>
+  <img src="https://lifebeyondnumbers.b-cdn.net/wp-content/uploads/2021/11/golden-temple.jpg.webp" class="favourite-place-card-image" />
+</div>   
+      
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">SOMNATH TEMPLE</h1>
+  <p class="favourite-place-card-description">A symbol of eternal love, the Taj Mahal is an architectural marvel in Agra and a UNESCO World Heritage Site
+  </p>
+  <img src="https://www.poojn.in/wp-content/uploads/2025/03/Poojns-Guide-Somnath-Temple-Rituals-Explained.jpeg.jpg" class="favourite-place-card-image" />
+</div>   
+  
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">BRIHADEESWARAR TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    This Chola dynasty marvel in Thanjavur is a UNESCO World Heritage Site.
+  </p>
+  <img src="https://s7ap1.scene7.com/is/image/incredibleindia/1-brihadeeswarar-temple-thanjavur-tamil-nadu-attr-hero?qlt=82&ts=1726655390734" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">KEDARNATH TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    Nestled in the Himalayas, Kedarnath is one of the most sacred temples dedicated to Lord Shiva.
+  </p>
+  <img src="https://cdn1.prayagsamagam.com/media/2023/05/24212654/kedarnath-4.webp" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">AKSHARDHAM TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    Known for its grand architecture and exhibitions, Akshardham Temple in Delhi is a modern spiritual masterpiece.
+  </p>
+  <img src="https://akshardham.com/gujarat/wp-content/uploads/2017/04/slider1.jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading"> JAGANNATH TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    Located in Puri, Odisha, this temple is famous for the Rath Yatra and its deep spiritual heritage.
+  </p>
+  <img src="https://media.assettype.com/newindianexpress%2F2024-12-26%2Fgm68bev5%2FNo-Dhadi.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">VAISHNO DEVI TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    A revered pilgrimage destination in the Trikuta Mountains, visited by millions annually.
+  </p>
+  <img src="https://charzanholidays.com/wp-content/uploads/2024/10/vaishno-devi-temple_charzan_holidays.png" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">KASHI VISHWANATH TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    Situated in Varanasi, it's one of the holiest Shiva temples and a vibrant symbol of devotion.
+  </p>
+  <img src="https://www.thehawk.in/_next/image?url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2Fe644c2d3-75d8-420d-bf55-3964b6e969db%2Fkashi-vishwanath-ee4eb6dd-7731-401d-8b73-f00880e39b96.jpg&w=3840&q=75" class="favourite-place-card-image" />
+</div>
+  
+  <div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">YAMUNOTRI TEMPLE</h1>
+  <p class="favourite-place-card-description">
+    Located in Uttarkashi, Uttarakhand, one of the Char Dham pilgrimage sites it is known for numerous temples/
+  </p>
+  <img src="https://uttarakhandtourism.gov.in/assets/media/UTDB_media_1736760764Yamunotri_Temple.jpg" class="favourite-place-card-image" />
+</div>
+
+   <div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">KANCHIPURAM TEMPLE </h1>
+  <p class="favourite-place-card-description">
+    kanchipuram temple Known for its numerous temples, including the Kailasanathar Temple. 
+  </p>
+  <img src="https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1693573996/banbanjara/qlrtkrswa3wxhvuqo0p8.webp" class="favourite-place-card-image" />
+</div>
+
+    <div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">SIDDHIVVINAYAKA TEMPLE </h1>
+   
+  <p class="favourite-place-card-description">In Mumbai, Maharashtra, dedicated to Lord Ganesha. lord ganesh is son of lord mahashiva.the saviour
+  </p>
+  <img src="https://utsav.gov.in/public/uploads/darshan_picture/darshan_11/16491398111791093251.jpg" class="favourite-place-card-image" />
+</div>
+
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">RED FORT</h1>
+  <p class="favourite-place-card-description">Located in Delhi, this fort served as the main residence of Mughal emperors for nearly 200 years.it nice to see</p>
+  <img src=https://thefederal.com/file/2023/01/iStock-1369987507.jpg class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">QUTUB MINAR</h1>
+  <p class="favourite-place-card-description">Qutub Minar is the tallest brick minaret in the world and a UNESCO World Heritage Site in Delhi.its nice to see </p>
+  <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201704/647_042717101905.jpg?size=690:388" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">GATEWAY OF INDIA</h1>
+  <p class="favourite-place-card-description">Built in 1924, the Gateway of India is a famous arch-monument located in Mumbai overlooking the Arabian Sea.</p>
+  <img src="https://assets.simplotel.com/simplotel/image/upload/x_0,y_1208,w_3492,h_1968,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/theory9---premium-service-apts/mumbai_gateway_of_india" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">HAWWA MAHAL/h1>
+  <p class="favourite-place-card-description">The "Palace of Winds" in Jaipur is known for its unique honeycomb structure and pink sandstone facade.</p>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4p4DsaMrE8cf_Cv4VnwR40VwijStXCe02SF0y5XIdy0YAL3J1aW6lUcj0oOFiJOFRBGUaQ87GubZfACSJJ0Z7TKR1S7tfN3jYGNDEZb0T3k6aF4VeOI3YaANFvSQ2OM2ZYOXJvKM1nvGE/s1600/hawa-mahal+(1).jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">CHARMINAR</h1>
+  <p class="favourite-place-card-description">Charminar is a 16th-century mosque in Hyderabad known for its four minarets and Indo-Islamic architecture.</p>
+  <img src="https://dwq3yv87q1b43.cloudfront.net/public/blogs/fit-in/1350x300/Blog_20241212-914208591-1733984860.jpeg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">INDIA GATE</h1>
+  <p class="favourite-place-card-description">India Gate in New Delhi is a war memorial built to honor the Indian soldiers who died in World War I.nice to see it very beaut</p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTbMBA3hCUhT9-US-wu-IX8ZHrREfY1BMP-g&s" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">MYSORE PALACE</h1>
+  <p class="favourite-place-card-description">A stunning example of Indo-Saracenic architecture, Mysore Palace is a royal residence in Karnataka.</p>
+  <img src="https://www.tripplannersindia.com/assets/blog/images/placestovisitinmysore/Mysore_Palace.webp" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading"> AJANTA CAVES</h1>
+  <p class="favourite-place-card-description">These Buddhist rock-cut caves in Maharashtra are famous for their paintings and sculptures dating to 2nd century BCE.</p>
+  <img src="https://scontent.fvga4-1.fna.fbcdn.net/v/t1.6435-9/70502867_2902495649765831_9133151910885326848_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=cbHtj4OhJJUQ7kNvwGL1DOk&_nc_oc=AdkS0zzAneGh-HvE1ZP-zEmyc5XnDDnzu9OwSh4OBG520i4creV4yCVjpOmhSNkW7ck&_nc_zt=23&_nc_ht=scontent.fvga4-1.fna&_nc_gid=Z303pCCBjAZyNaE-zFDXzQ&oh=00_AfPLF92stF8O4lunNROTRPvt4cel51mG9rhOr02XCSpSjw&oe=68786AEF" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">ELLORA CAVES</h1>
+  <p class="favourite-place-card-description">A complex of Hindu, Buddhist, and Jain caves near Aurangabad, Ellora is an architectural marvel carved into rock.</p>
+  <img src="https://images.nativeplanet.com/img/2017/08/kailastempleinelloracavescomplexinmaharashtra-09-1502281268.jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">KONARK SUM TEMPLE</h1>
+  <p class="favourite-place-card-description">A 13th-century temple in Odisha shaped like a giant chariot, dedicated to the Sun God Surya.nice to see it very beaut
+
+  </p>
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/16/92/b7/konarak-sun-temple.jpg?w=1200&h=1200&s=1" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">RANTHAMBORE FORT</h1>
+  <p class="favourite-place-card-description">Located inside Ranthambore National Park, this fort offers panoramic views and historic ruins.nice to see it very beaute</p>
+  <img src="https://www.travel-rajasthan.com/images/experiance-in-rajsthan/forts-and-palaces/ranthambore-fort-travel-rajasthan.jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading"> SANCHI STUPA</h1>
+  <p class="favourite-place-card-description">One of the oldest stone structures in India, Sanchi Stupa is a Buddhist monument in Madhya Pradesh.nice to see it very beaut</p>
+  <img src="https://smarthistory.org/wp-content/uploads/2023/10/3.jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">FATEHPUR SIKRI</h1>
+  <p class="favourite-place-card-description">An abandoned city built by Emperor Akbar, it showcases Mughal architecture and red sandstone beauty.</p>
+  <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Fatehpur-Sikri_600.jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading"> HUMAYUN'S TOMB</h1>
+  <p class="favourite-place-card-description">A precursor to the Taj Mahal, this tomb in Delhi is a stunning garden-tomb of Mughal Emperor Humayun.</p>
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c9/39/b3/humayun-s-tomb.jpg?w=900&h=500&s=1" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">GOLCONADA FORT</h1>
+  <p class="favourite-place-card-description">Once a diamond trading center, Golconda Fort in Hyderabad is known for its acoustics and massive gates.</p>
+  <img src="https://s7ap1.scene7.com/is/image/incredibleindia/golconda-fort-hyderabad-secunderabad-telangana-2-musthead-hero?qlt=82&ts=1726652800762" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">VICTORIA MEMORIAL</h1>
+  <p class="favourite-place-card-description">Built in honor of Queen Victoria, this marble building in Kolkata is now a museum of colonial history.</p>
+  <img src="https://s7ap1.scene7.com/is/image/incredibleindia/victoria-memorial-kolkata-wb-2-attr-hero?qlt=82&ts=1726644062097" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">LAKE PALACE</h1>
+  <p class="favourite-place-card-description">Located in Udaipur, the Lake Palace is a luxurious hotel floating in the middle of Lake Pichola.</p>
+  <img src="https://s7ap1.scene7.com/is/image/incredibleindia/lake-palace-udaipur-rajasthan-1-attr-hero?qlt=82&ts=1727353329359" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">CHITTORGARH FORT</h1>
+  <p class="favourite-place-card-description">The largest fort in India, it is known for tales of Rajput bravery and Jauhar by Rani Padmini.</p>
+  <img src="https://i.pinimg.com/736x/e3/aa/13/e3aa131bbe770a704d500736d326f40f.jpg" class="favourite-place-card-image" />
+</div>
+
+<div class="favourite-place-card-container">
+  <h1 class="favourite-place-card-heading">JAISALMER FORT</h1>
+  <p class="favourite-place-card-description">Called the Golden Fort, it rises from the desert in Rajasthan and is still home to residents today.</p>
+  <img src="https://www.rajasthantourplanner.com/blog/wp-content/uploads/2021/11/Jaisalmer-Fort.jpg" class="favourite-place-card-image" />
+</div>
+  </div>
+  
+</body>
+</html>

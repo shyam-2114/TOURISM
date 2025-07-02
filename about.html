@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us </title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <script>
+
+  if (sessionStorage.getItem("isLoggedIn") !== "true") {
+    alert("Please log in first.");
+    window.location.href = "login.html";
+  }
+</script>
+
+
+  <header>
+    <div class="logo-container">
+      <img src="https://static.vecteezy.com/system/resources/previews/041/041/174/non_2x/tourism-logo-icon-brand-identity-sign-symbol-vector.jpg" alt="Tourism Logo" class="logo-img" />
+      <div class="logo-text">TOURISM</div>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html">HOME</a>
+  
+  </header>
+
+  <main class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to our Tourism Portal! We are passionate about showcasing the beauty, culture, and hidden gems of  world.</p>
+
+    <h2>Our Mission</h2>
+    <p>To promote sustainable and culturally enriching travel experiences across World, helping tourists discover iconic as well as lesser-known destinations.</p>
+
+    <h2>What We Offer</h2>
+    <ul>
+      <li>Comprehensive guides to tourist spots and temples</li>
+      <li>Recommendations for local food, festivals, and art</li>
+      <li>Personalized travel suggestions</li>
+      <li>Photo galleries and travel stories</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <p>Email: support@tourism.com</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Follow us on:
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">YouTube</a>
+    </p>
+  </main>
+
+  
+
+</body>
+</html>
